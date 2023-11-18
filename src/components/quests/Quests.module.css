@@ -1,0 +1,17 @@
+.container {
+  margin: 1.4rem;
+  height: 85vh;
+  border-radius: 1rem;
+  background-color: var(--base-dark);
+  display: flex;
+}
+.sidebarContainer {
+  flex: 1;
+}
+.contentContainer {
+  flex: 4;
+  margin: 1.4rem;
+  padding: 1.5rem;
+  background: var(--base);
+  border-radius: 1rem;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.4rem 1rem;
+  gap: 1rem;
+}
+.container > * {
+  width: 90%;
+  background: #18708b;
+  padding: 0.6rem 1.6rem;
+  border-radius: 0.8rem;
+}
+.questItem {
+}
+.subquestItem {
+}
