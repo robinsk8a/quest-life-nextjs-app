@@ -7,6 +7,7 @@
   --base-dark: #104658;
   --base-darker: #0d3d4c;
   --base-light: #155e75;
+  --base-lighter: #18708b;
   --accent: #6ee7b7;
   --simple-white: #d6fdff;
   --dark-white: #b9d4dc;
@@ -19,8 +20,13 @@
 }
 
 body {
+  width: 100%;
   background-color: var(--base);
   color: var(--simple-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 li {

@@ -1,9 +1,17 @@
 .container {
-  margin: 1.4rem;
-  height: 85vh;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 1.5rem;
+}
+.questsContainer {
+  height: 100%;
+  width: 100%;
   border-radius: 1rem;
   background-color: var(--base-dark);
   display: flex;
+  box-shadow: -0.1rem 0.2rem 0.35rem 0.2rem #183b49;
 }
 .sidebarContainer {
   flex: 1;
@@ -11,7 +19,9 @@
 .contentContainer {
   flex: 4;
   margin: 1.4rem;
+  margin-left: 0;
   padding: 1.5rem;
   background: var(--base);
   border-radius: 1rem;
+  box-shadow: -0.1rem 0.2rem 0.4rem 0.3rem #103542;
 }

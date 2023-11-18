@@ -1,8 +1,9 @@
 .header {
   width: 100vw;
-  background-color: #16585a;
+  background-color: var(--base-dark);
   display: flex;
   justify-content: center;
+  box-shadow: 0 0.2rem 0.35rem 0.2rem #183b49;
 }
 .container {
   width: 1500px;

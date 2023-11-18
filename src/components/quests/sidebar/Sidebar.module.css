@@ -7,11 +7,13 @@
 }
 .container > * {
   width: 90%;
-  background: #18708b;
+  background: var(--base-lighter);
   padding: 0.6rem 1.6rem;
   border-radius: 0.8rem;
+  box-shadow: -0.1rem 0.2rem 0.2rem 0.08rem #103542;
 }
 .questItem {
 }
 .subquestItem {
+  background: var(--base-light);
 }
