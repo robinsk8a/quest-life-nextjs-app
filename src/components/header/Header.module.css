@@ -3,6 +3,7 @@
   background-color: var(--base-dark);
   display: flex;
   justify-content: center;
+  text-align: center;
   box-shadow: 0 0.2rem 0.35rem 0.2rem #183b49;
 }
 .container {

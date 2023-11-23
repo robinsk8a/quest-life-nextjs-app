@@ -23,12 +23,17 @@ body {
   width: 100%;
   background-color: var(--base);
   color: var(--simple-white);
+  overflow-x: hidden;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+#homeContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-}
-
-li {
-  list-style-type: none;
 }
